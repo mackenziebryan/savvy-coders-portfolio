@@ -1,4 +1,18 @@
 
+#headimg {
+  max-width: 1460px;
+  width: 100%;
+  max-height: 300px;
+  text-align: center;
+  border: solid 15px goldenrod;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  opacity: 0.75;
+}
+
+a {
+  text-decoration: none;
+}
 
 .container {
   margin: 0 auto;
@@ -6,6 +20,14 @@
   width: 80vw;
 }
 
+li {
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
 
 .headshot {
   border: goldenrod 25px solid;
@@ -16,13 +38,17 @@
 
 .flex {
   display: flex;
-  text-align: center;
-  font-size: 26px;
 }
 
 .flex--column {
   flex-direction: column;
 }
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+
 
 /* Form */
 input {
@@ -53,9 +79,20 @@ form > div + div {
 }
 
 
+/* navigation */
+nav li {
+  text-transform: uppercase;
+  margin: 0 40px;
+}
 
+#dropdown {
+  display: none;
+}
 
-
+li:focus #dropdown,
+li:hover #dropdown {
+  display: block;
+}
 
 
 
