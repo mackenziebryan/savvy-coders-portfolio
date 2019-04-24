@@ -1,9 +1,8 @@
 
 #headimg {
-  max-width: 1460px;
-  width: 100%;
+  max-width: 960px;
+  width: 80%;
   max-height: 300px;
-  text-align: center;
   border: solid 15px goldenrod;
   margin-top: 15px;
   margin-bottom: 10px;
@@ -80,6 +79,14 @@ form > div + div {
 
 
 /* navigation */
+nav {
+  position: sticky;
+  background: goldenrod;
+  opacity: 0.75;
+  top: 20px;
+  bottom: 50px;
+}
+
 nav li {
   text-transform: uppercase;
   margin: 0 40px;
