@@ -16,6 +16,12 @@
 
 .flex {
   display: flex;
+  text-align: center;
+  font-size: 26px;
+}
+
+.flex--column {
+  flex-direction: column;
 }
 
 /* Form */
@@ -27,6 +33,24 @@ span + span {
   margin-left: 15px;
 }
 
+form span + div {
+  margin-top: 15px;
+}
+
+textarea {
+  margin-top: 15px;
+}
+
+form p {
+  margin-bottom: 5px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 26px;
+}
+
+form > div + div {
+  margin-top: 10px;
+}
 
 
 

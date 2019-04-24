@@ -50,15 +50,15 @@
           <input type="tel" name="userFone" id="fone" />
         </span>
 
-        <div class="flex">
+        <div class="flex flex--column">
           <label for="msg">Your Message</label>
           <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
         </div>
 
-        <div>
+        <span>
           <p>What's this message about?</p>
 
-          <div>
+          <span>
             <input
               type="radio"
               name="subject"
@@ -67,17 +67,17 @@
               checked
             />
             <label for="pro">I'd like to hire you!</label>
-          </div>
+          </span>
 
-          <div>
+          <span>
             <input type="radio" name="subject" value="personal" id="personal" />
             <label for="personal">Personal message</label>
-          </div>
-          <div>
+          </span>
+          <span>
             <input type="radio" name="subject" value="other" />
             <label>Don't know/something else</label>
-          </div>
-        </div>
+          </span>
+        </span>
         <div>
           <input type="checkbox" name="optin" value="trusting" checked />Subscribe
           me to your newsletter!
