@@ -1,3 +1,6 @@
+body {
+  font-family: "Cute Font", cursive;
+}
 
 #headimg {
   max-width: 960px;
@@ -7,6 +10,23 @@
   margin-top: 15px;
   margin-bottom: 10px;
   opacity: 0.75;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  padding-top: 25px;
+  font-size: 4em;
+}
+
+header h2 {
+  font-size: 2em;
+}
+
+h2 + h2 {
+  font-size: 26px;
 }
 
 a {
@@ -47,7 +67,9 @@ ul {
   justify-content: space-around;
 }
 
-
+section p {
+  font-size: 26px;
+}
 
 /* Form */
 input {
@@ -77,6 +99,9 @@ form > div + div {
   margin-top: 10px;
 }
 
+form input {
+  margin-top: 15px;
+}
 
 /* navigation */
 nav {
@@ -101,11 +126,10 @@ li:hover #dropdown {
   display: block;
 }
 
+/* Footer Style */
 
-
-
-
-
-
-
-
+footer {
+  padding-bottom: 50px;
+  text-align: right;
+  font-size: 20px;
+}
