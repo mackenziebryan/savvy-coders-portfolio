@@ -17,7 +17,7 @@ header {
 }
 
 header h1 {
-  padding-top: 25px;
+  padding-top: 10px;
   font-size: 4em;
 }
 
@@ -110,6 +110,8 @@ nav {
   opacity: 0.75;
   top: 20px;
   bottom: 50px;
+  border: bisque 20px solid;
+  font-size: 18px;
 }
 
 nav li {
